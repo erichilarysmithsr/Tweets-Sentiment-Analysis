@@ -46,6 +46,10 @@ paths:
     get:
       action: twitter_labs/getOpenApiSpec
       accounts: {}
+  /paths2:
+    get:
+      action: facebook/post.get
+      accounts: {}
 tests:
   test:
     action: microsoft_cognitiveservices_newssearch/News_Search
