@@ -20,3 +20,10 @@ paths:
     get:
       action: microsoft_cognitiveservices_newssearch/News_Search
       accounts: {}
+tests:
+  test:
+    action: microsoft_cognitiveservices_newssearch/News_Search
+    accounts: {}
+    input:
+      X-BingApis-SDK: '""'
+      q: '""'
