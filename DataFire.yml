@@ -60,3 +60,8 @@ tests:
   test1:
     action: twitter_labs/getOpenApiSpec
     accounts: {}
+  test2:
+    action: facebook/post.get
+    accounts: {}
+    input:
+      post: '""'
