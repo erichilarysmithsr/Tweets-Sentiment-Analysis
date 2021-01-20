@@ -2,3 +2,16 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: microsoft_cognitiveservices_newssearch/News_Search
+    accounts: {}
+    monitor:
+      action: microsoft_cognitiveservices_newssearch/News_Search
+      accounts: {}
+      trackBy: headline
+      array: value
+      input:
+        X-BingApis-SDK: '""'
+        q: '""'
