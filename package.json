@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@datafire/microsoft_cognitiveservices_newssearch": "5.0.0"
+    "@datafire/microsoft_cognitiveservices_newssearch": "5.0.0",
+    "@datafire/twitter_labs": "3.0.0"
   }
 }
