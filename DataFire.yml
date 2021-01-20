@@ -30,6 +30,10 @@ paths:
     get:
       action: microsoft_cognitiveservices_newssearch/News_Search
       accounts: {}
+  /paths1:
+    get:
+      action: twitter_labs/getOpenApiSpec
+      accounts: {}
 tests:
   test:
     action: microsoft_cognitiveservices_newssearch/News_Search
