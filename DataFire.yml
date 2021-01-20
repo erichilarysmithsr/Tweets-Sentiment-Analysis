@@ -16,6 +16,15 @@ tasks:
       input:
         X-BingApis-SDK: '""'
         q: '""'
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: twitter_labs/getOpenApiSpec
+    accounts: {}
+    monitor:
+      action: twitter_labs/getOpenApiSpec
+      accounts: {}
+      trackBy: ''
+      array: ''
 paths:
   /paths0:
     get:
