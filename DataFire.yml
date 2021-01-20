@@ -41,3 +41,6 @@ tests:
     input:
       X-BingApis-SDK: '""'
       q: '""'
+  test1:
+    action: twitter_labs/getOpenApiSpec
+    accounts: {}
