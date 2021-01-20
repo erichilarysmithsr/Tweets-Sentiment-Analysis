@@ -26,6 +26,17 @@ tasks:
       accounts: {}
       trackBy: ''
       array: ''
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: facebook/post.get
+    accounts: {}
+    monitor:
+      action: facebook/post.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        post: '""'
 paths:
   /paths0:
     get:
